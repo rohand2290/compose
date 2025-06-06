@@ -1,4 +1,18 @@
-module Main where
+import CMark
+import Parse
+import qualified Data.Text
+import qualified Data.Text.IO
+
+
 
 main :: IO ()
-main = putStrLn "Hello, Haskell!"
+main = do
+ text <- Data.Text.IO.readFile "README.md"
+ processNode (getMarkdownNode text)
+
+
+
+
+
+
+
