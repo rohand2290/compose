@@ -64,7 +64,10 @@ executable compose
     -- other-extensions:
 
     -- Other library packages from which modules are imported.
-    build-depends:    base ^>=4.19.2.0, cmark ^>=0.6.1, text
+    build-depends:    base ^>=4.19.2.0, 
+    cmark ^>=0.6.1,
+    text,
+    optparse-applicative
 
     -- Directories containing source files.
     hs-source-dirs:   app

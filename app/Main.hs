@@ -8,7 +8,7 @@ import qualified Data.Text.IO
 main :: IO ()
 main = do
  text <- Data.Text.IO.readFile "README.md"
- processNode (getMarkdownNode text)
+ putStrLn (show (commonmarkToHtml [CMark.optSmart] text))
 
 
 

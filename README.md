@@ -4,4 +4,17 @@ A small blog generator written in Haskell to replace my current blogging system 
 
 ## Installation
 * Clone the repo
-* Run `cabal build`
+* Run `cabal run.`
+
+## How to use
+```
+cabal run <directory>
+```
+
+with a directory format such as
+```
+.
+└── _index.md/
+    └── posts/
+```
+

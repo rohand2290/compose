@@ -18,3 +18,5 @@ processNode node = case node of
 		                                    putStrLn (show typ)
                                                     mapM_ processNode childNodes
 
+
+
