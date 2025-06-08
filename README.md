@@ -11,10 +11,4 @@ A small blog generator written in Haskell to replace my current blogging system 
 cabal run <directory>
 ```
 
-with a directory format such as
-```
-.
-└── _index.md/
-    └── posts/
-```
 
